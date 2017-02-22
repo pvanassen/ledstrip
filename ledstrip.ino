@@ -46,7 +46,7 @@ void setup() {
 }
 
 void loop() {
-  long rnd = random(400);
+  long rnd = random(600);
   Serial.println(rnd);  
   if (rnd < 10) {
     rainbowFade2White(2, 8, 8);
